@@ -1,27 +1,27 @@
 window.promises = [];
 
 let a = new Promise(resolve => {
-	setTimeout(() => {
+	setTimeOut(() => {
 		resolve("a")
 	}, 3000)
 })
 let b = new Promise(resolve => {
-	setTimeout(() => {
+	setTimeOut(() => {
 		resolve("b")
 	}, 2000)
 })
 let c = new Promise(resolve => {
-	setTimeout(() => {
+	setTimeOut(() => {
 		resolve("c")
 	}, 1000)
 })
 let d = new Promise(resolve => {
-	setTimeout(() => {
+	setTimeOut(() => {
 		resolve("d")
 	}, 4000)
 })
 let e = new Promise(resolve => {
-	setTimeout(() => {
+	setTimeOut(() => {
 		resolve("e")
 	}, 5000)
 })
